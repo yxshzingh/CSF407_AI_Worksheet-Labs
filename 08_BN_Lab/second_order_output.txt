@@ -1,0 +1,62 @@
+SECOND-ORDER CPT
+('<START>', '<START>') {'the': 1.0}
+('<START>', 'the') {'cat': 0.5, 'dog': 0.5}
+('cat', 'ran') {'to': 1.0}
+('cat', 'sat') {'on': 1.0}
+('dog', 'ran') {'to': 1.0}
+('dog', 'sat') {'on': 1.0}
+('on', 'the') {'mat': 0.5, 'rug': 0.5}
+('ran', 'to') {'the': 1.0}
+('sat', 'on') {'the': 1.0}
+('the', 'cat') {'ran': 0.3333333333333333, 'sat': 0.6666666666666666}
+('the', 'dog') {'ran': 0.3333333333333333, 'sat': 0.6666666666666666}
+('the', 'mat') {'<END>': 1.0}
+('the', 'park') {'<END>': 1.0}
+('the', 'rug') {'<END>': 1.0}
+('to', 'the') {'park': 1.0}
+
+NORMALISATION
+('<START>', '<START>') 1.0
+('<START>', 'the') 1.0
+('cat', 'ran') 1.0
+('cat', 'sat') 1.0
+('dog', 'ran') 1.0
+('dog', 'sat') 1.0
+('on', 'the') 1.0
+('ran', 'to') 1.0
+('sat', 'on') 1.0
+('the', 'cat') 1.0
+('the', 'dog') 1.0
+('the', 'mat') 1.0
+('the', 'park') 1.0
+('the', 'rug') 1.0
+('to', 'the') 1.0
+
+GREEDY
+1 the cat sat on the mat
+2 the cat sat on the mat
+3 the cat sat on the mat
+4 the cat sat on the mat
+5 the cat sat on the mat
+
+SAMPLING seed=42
+1 the cat ran to the park
+2 the cat ran to the park
+3 the dog ran to the park
+4 the cat ran to the park
+5 the dog sat on the rug
+6 the dog sat on the rug
+7 the cat ran to the park
+8 the cat ran to the park
+9 the dog ran to the park
+10 the dog sat on the mat
+11 the dog sat on the mat
+12 the cat ran to the park
+13 the cat sat on the mat
+14 the dog sat on the rug
+15 the dog ran to the park
+16 the cat sat on the rug
+17 the cat sat on the rug
+18 the dog sat on the mat
+19 the dog sat on the mat
+20 the cat sat on the rug
