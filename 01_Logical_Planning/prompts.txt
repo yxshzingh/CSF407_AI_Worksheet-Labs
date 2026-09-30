@@ -1,0 +1,3 @@
+Prompt used:
+
+I want to implement a simple planning agent in Python. Represent a state as a set of logical propositions. Each action should contain a name, positive/negative preconditions, and positive/negative effects. An action is applicable only when its preconditions are satisfied. Use BFS to find a sequence achieving a specified goal, detect failure, print the plan and states, explain assumptions, and run the warehouse problem.
