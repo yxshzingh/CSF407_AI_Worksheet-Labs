@@ -156,7 +156,7 @@ AI-Laboratory-Assignments/
 ├── 04_Neural_Models/
 │   ├── ...
 │
-└── 05_Bayesian_Networks/
+└── 08_Bayesian_Networks/
     ├── ...
 ```
 
