@@ -1,0 +1,3 @@
+A* prompt used:
+
+Implement A* for the supplied warehouse grid. Use grid positions as states, four unit-cost moves, Manhattan distance as h(n), a frontier, g/h/f, repeated-state avoidance, path reconstruction, and reporting of path length and states expanded. Also implement BFS for comparison.

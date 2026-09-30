@@ -1,0 +1,9 @@
+Original A*: found= True length= 40 expanded= 64
+Original BFS: found= True length= 40 expanded= 64
+Trivial A*: length= 1 expanded= 2
+No-solution A*: found= False expanded= 9
+Alternative paths A*: length= 4 expanded= 5
+Manhattan found= True length= 40 expanded= 64
+Zero found= True length= 40 expanded= 64
+Euclidean found= True length= 40 expanded= 64
+2x Manhattan found= True length= 40 expanded= 64
