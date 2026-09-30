@@ -1,0 +1,3 @@
+Prompt used:
+
+Write a well-documented Python goal-based agent for the supplied warehouse map. Represent the warehouse as a 2D grid, find a collision-free path from S to G, avoid obstacles, print the path or a no-path message, explain the chosen search algorithm, and test the program.
