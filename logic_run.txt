@@ -1,9 +1,0 @@
-TEST A: Solvable
-Plan: PickUp(Package,A) -> Move(A,B) -> Move(B,C) -> Drop(Package,C)
-S0: ['At(Package,A)', 'At(Robot,A)']
-S1: ['At(Robot,A)', 'Holding(Package)']
-S2: ['At(Robot,B)', 'Holding(Package)']
-S3: ['At(Robot,C)', 'Holding(Package)']
-S4: ['At(Package,C)', 'At(Robot,C)']
-TEST B: Impossible: No plan found
-TEST C: Irrelevant actions: No plan found
