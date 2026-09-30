@@ -1,0 +1,12 @@
+Binary XOR experiments
+sigmoid initial= 0.698454 final= 0.002019 correct= True grad_norm_step0= 0.005453 probs= [0.001776, 0.997904, 0.997879, 0.002063]
+tanh initial= 0.693229 final= 0.00069 correct= True grad_norm_step0= 0.005077 probs= [0.000538, 0.999245, 0.999059, 0.000519]
+relu initial= 0.693667 final= 0.000281 correct= True grad_norm_step0= 0.004868 probs= [0.000157, 0.999569, 0.999569, 0.000103]
+Symmetry zero-init rows identical: True
+Three-class final loss= 0.000165 pred= [0, 1, 1, 2]
+Probabilities=
+[[9.9978584e-01 2.1387750e-04 2.1947113e-07]
+ [7.2880255e-05 9.9987459e-01 5.2584717e-05]
+ [6.5146298e-05 9.9987507e-01 5.9677364e-05]
+ [7.2872615e-07 1.9412655e-04 9.9980515e-01]]
+First row sum= 0.9999999403953552

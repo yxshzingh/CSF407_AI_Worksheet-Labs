@@ -1,0 +1,3 @@
+Prompt used:
+
+Generate minimal PyTorch code for this exact model and dataset. Report final loss, all four probabilities, thresholded labels, and a parameter-gradient tensor. Set a reproducible seed. Also run zero-weight symmetry and activation experiments and a three-class extension with three logits and cross-entropy.
